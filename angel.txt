@@ -1,0 +1,10 @@
+Full address: The Angel, 61 St. Giles High Street, London, WC2H 8LE
+lat/long:     51.515591, -0.127852
+
+Underground stations in the vicinity:
+    * Tottenham Court Road  270m  Central, Northern
+    * Covent Garden         500m  Piccadilly
+    * Leicester square      600m  Piccadilly, Northern
+    * Holborn               600m  Piccadilly, Central
+    * Goodge Street         800m  Northern
+    * Charing Cross         950m  Northern, Bakerloo

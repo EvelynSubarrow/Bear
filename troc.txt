@@ -1,0 +1,8 @@
+Full address:    London Trocadero, Coventry Street, Picadilly, London, W1D 7DH
+Map:             http://tinyurl.com/lon2600-troc
+
+Tube stations in the vicinity:
+* Picadilly Circus (~80m):   Picadilly, Bakerloo (Take exit 4)
+* Leicester Square (~300m):  Picadilly
+* Charing Cross    (~600m):  Bakerloo
+* Embankment       (~1000m): Bakerloo, Circle, District, Northern
