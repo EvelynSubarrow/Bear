@@ -1,6 +1,6 @@
 From: Bear <%(from)s>
 To: 2600 London <%(to)s>
-Subject: Reminder - %(type)s meet, %(meet_weekday)s %(meet_date)s at %(meet_time)s
+Subject: Reminder - %(type)s meet, %(meet_weekday)s %(meet_date)s at %(meet_time)s, %(location)s
 
 %(type_desc)s
 
