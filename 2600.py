@@ -61,7 +61,7 @@ for meet in meets:
         if len(statuses):
             disruptions += "    %s:" % line["name"] + "\n"
             disruptions += "\n".join([col80(status["reason"], 8) for status in statuses]) + "\n"
-    if !disruptions:
+    if not disruptions:
         disruptions = "    There are no disruptions."
     params = meet
     params.update({
