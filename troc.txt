@@ -1,8 +1,39 @@
-Full address:    London Trocadero, Coventry Street, Picadilly, London, W1D 7DH
-Map:             http://tinyurl.com/lon2600-troc
+Full address: London Trocadero, Coventry Street, Piccadilly, London, W1D 7DH
+Map:          http://tinyurl.com/lon2600-troc
 
-Tube stations in the vicinity:
-* Picadilly Circus (~80m):   Picadilly, Bakerloo (Take exit 4)
-* Leicester Square (~300m):  Picadilly
-* Charing Cross    (~600m):  Bakerloo
-* Embankment       (~1000m): Bakerloo, Circle, District, Northern
+Bus stops:
+    Name                  Dist. Stop  TfL ID        Routes         Night
+    ----------------------------------------------------------------------------
+    H'market / Jermyn St. 76m   R     490007960R    6, 13, 23, 139 N13, N113
+    Trocadero / Haymarket 200m  K     490011791K    14, 19, 38     N19, N38
+    H'market/Charles 2 St.210m  P     490007960P    3, 12, 88, 159 N3, N18, N97
+                                                    453            N109, N136
+
+"Piccadilly Circus" Bus stops:
+    Dist. Stop  TfL ID        Routes                    Night
+    ----------------------------------------------------------------------------
+    210m  G     490000179G    6, 13, 23, 139            N13, N113, N18
+    260m  C     490000179C    13, 139                   N13, N113
+    280m  F     490000179F    3, 12, 88, 94, 159, 453   N3, N109, N136
+    290m  B |   490000179B    14, 19, 22, 38            N19, N22, N38, N97
+    300m  S |   490000179S    14, 19, 22, 38            N19, N22, N38, N97
+    300m  D     490000179D    6, 23, 94, 159            -
+    350m  E     490011515W    3, 12, 88, 453            N3, N18, N109, N136
+
+London Underground stations:
+    Name                  Dist. Underground lines     TfL ID        NR CRS code
+    ----------------------------------------------------------------------------
+    Piccadilly Circus      80m  Piccadilly, Bakerloo  940GZZLUPCC   -
+    Leicester Square      300m  Piccadilly            940GZZLULSQ   -
+    Charing Cross         600m  Bakerloo              9400ZZLUCHX1  CHX
+    Embankment            1000m Bakerloo, Circle,     940GZZLUEMB   -
+                                District, Northern
+
+From Piccadilly Circus, take exit 4. Keep walking straight ahead until you
+arrive. Disregard the old Trocadero signs at Piccadilly Circus, as only Ripley's
+is currently accessible in that direction.
+
+National rail stations:
+    Name                  Dist. CRS  Operators
+    ----------------------------------------------------------------------------
+    Charing Cross         950m  CHX  SE

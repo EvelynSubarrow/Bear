@@ -75,8 +75,8 @@ for meet in meets:
         "to" : config["to"],
         })
     for include in meet["include"]:
-        with open(meet["include"][include]) as file:
+        with open(meet["include"][include], "r") as file:
             params[include] = file.read().rstrip()
-    smtp = smtplib.SMTP(config["host"])
-    smtp.sendmail(config["from"], [config["to"]], message % params)
+    with smtplib.SMTP(config["host"]) as smtp:
+        smtp.sendmail(config["from"], [config["to"]], message % params)
 
