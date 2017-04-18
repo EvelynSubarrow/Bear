@@ -1,31 +1,32 @@
 {
     "notify" : [1, 7],
-    "from":    "bear@wolf.not.dog",
+    "from":    "niya@wolf.not.dog",
     "to":      "london2600@lists.kentgeek.org",
     "host":    "smtp.kentgeek.org",
-    "main":
-    {
-        "times": ["1830", "1930"],
-        "type":  "Main",
-        "location": "Outside London Trocadero",
-        "include":
-        {
-            "type_desc": "main.txt",
-            "loc_desc": "troc.txt"
-        }
-    },
     "meets":
     [
         {
-            "date":     [2016, 8, 20],
-            "times":    ["1500"],
+            "frequency": "/Fri+15",
+            "times":    ["1400"],
             "type":     "Mid-month",
-            "location": "The Angel",
+            "location": "Phoenix",
             "include":
             {
                 "type_desc": "mid.txt",
-                "loc_desc": "angel.txt"
+                "loc_desc": "phoenix.txt"
+            }
+        },
+        {
+            "frequency": "^Fri",
+            "times": ["1830", "1930"],
+            "type":  "Main",
+            "location": "Outside London Trocadero",
+            "include":
+            {
+                "type_desc": "main.txt",
+                "loc_desc": "troc.txt"
             }
         }
+
     ]
 }
