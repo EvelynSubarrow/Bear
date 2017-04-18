@@ -59,7 +59,9 @@ def col80(text, indent):
 
 def human_countdown(date_from, date_to):
     days = date_from.toordinal() - date_to.toordinal()
-    return "tomorrow" if days == 1 else "in %d days" % days
+    if days==1: return "tomorrow"
+    elif days==0: return "today"
+    else return "in %d days" % days
 
 for meet in meets:
     if "date" in meet:
