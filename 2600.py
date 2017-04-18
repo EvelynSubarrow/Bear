@@ -6,7 +6,7 @@ from urllib import request
 
 WEEK_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 WEEKDAY_SHORT = [a[:3] for a in WEEK_DAYS]
-num_re = re.compile(r"^(\d+).*")
+num_re = re.compile(r"^(-?\d+).*")
 
 #Because cron
 os.chdir(sys.path[0])
