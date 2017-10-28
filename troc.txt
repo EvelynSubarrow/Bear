@@ -2,7 +2,7 @@ Full address: London Trocadero, Coventry Street, Piccadilly, London, W1D 7DH
 Map:          http://tinyurl.com/lon2600-troc
 
 Bus stops:
-    Name                  Dist. Stop  TfL ID        Routes         Night
+    Name                  Dist. Stop  NAPTAN        Routes         Night
     ----------------------------------------------------------------------------
     H'market / Jermyn St. 76m   R     490007960R    6, 13, 23, 139 N13, N113
     Trocadero / Haymarket 200m  K     490011791K    14, 19, 38     N19, N38
@@ -10,7 +10,7 @@ Bus stops:
                                                     453            N109, N136
 
 "Piccadilly Circus" Bus stops:
-    Dist. Stop  TfL ID        Routes                    Night
+    Dist. Stop  NAPTAN        Routes                    Night
     ----------------------------------------------------------------------------
     210m  G     490000179G    6, 13, 23, 139            N13, N113, N18
     260m  C     490000179C    13, 139                   N13, N113
@@ -21,19 +21,53 @@ Bus stops:
     350m  E     490011515W    3, 12, 88, 453            N3, N18, N109, N136
 
 London Underground stations:
-    Name                  Dist. Underground lines     TfL ID        NR CRS code
+    Name                  Dist. Underground lines     TfL ID
     ----------------------------------------------------------------------------
-    Piccadilly Circus      80m  Piccadilly, Bakerloo  940GZZLUPCC   -
-    Leicester Square      300m  Piccadilly            940GZZLULSQ   -
-    Charing Cross         600m  Bakerloo              9400ZZLUCHX1  CHX
-    Embankment            1000m Bakerloo, Circle,     940GZZLUEMB   -
+    Piccadilly Circus      80m  Piccadilly, Bakerloo  940GZZLUPCC
+    Leicester Square      300m  Piccadilly            940GZZLULSQ
+    Charing Cross         600m  Bakerloo              9400ZZLUCHX1
+    Embankment            1000m Bakerloo, Circle,     940GZZLUEMB
                                 District, Northern
 
 From Piccadilly Circus, take exit 4. Keep walking straight ahead until you
 arrive. Disregard the old Trocadero signs at Piccadilly Circus, as only Ripley's
 is currently accessible in that direction.
 
-National rail stations:
-    Name                  Dist. CRS  Operators
+London Terminals:
+    Name           CRS  Operators       Interchange
     ----------------------------------------------------------------------------
-    Charing Cross         950m  CHX  SE
+    Blackfriars    BFR  TL, SE          (Circle)  -> Embankment (Bakerloo) -> PC
+    Charing Cross  CHX  SE              Embankment (Bakerloo)              -> PC
+    Euston         EUS  CS, LM, LO, VT  (Northern)->                          LS
+    King's Cross   KGX  GC, GN, GR, HT  (Bakerloo)->                          PC
+    Liverpool St.  LST  LO, LE, XR      (Central) -> Holborn (Piccadilly)  -> PC
+    Marylebone     MYB  CH              (Bakerloo)->                          PC
+    Paddington     PAD  GW, HC, HX, CH* (Bakerloo)->                          PC
+    St. Pancras    STP  EM, ES, SE, TL  (Northern)->                          LS
+    Victoria       VIC  GX, SN, SE      (Victoria)-> Green Park (Picc.)    -> PC
+    Waterloo       WAT  SW              (Bakerloo)->                          PC
+    
+    * LS - Leicester Square
+    * PC - Piccadilly Circus
+
+Operators:
+    ATOC  Name                      Franchise?
+    ----------------------------------------------------------------------------
+    CH    Chiltern Railways         *
+    CS    Caledonian Sleeper
+    GW    Great Western Railway     *  
+    GX    Gatwick Express
+    EM    East Midland Trains       *
+    ES    EuroStar
+    GN    Great Northern            *
+    GR    Virgin Trains East Coast  *
+    HC    Heathrow Connect
+    HX    Heathrow Express
+    HT    Hull Trains
+    LM    London Midland            *
+    LO    London Overground         *
+    SE    SouthEastern              *
+    SW    South Western Railway     *
+    TL    ThamesLink                *
+    VT    Virgin Trains             *
+    XR    TfL Rail                  *
