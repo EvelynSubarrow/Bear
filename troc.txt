@@ -1,6 +1,10 @@
 Full address: London Trocadero, Coventry Street, Piccadilly, London, W1D 7DH
 Map:          http://tinyurl.com/lon2600-troc
 
+The former main entrance to the London Trocadero is less obvious these days.
+It's on Coventry Street, directly opposite to the alleyway running between
+TGI Fridays and Angus Steakhouse.
+
 Bus stops:
     Name                  Dist. Stop  NAPTAN        Routes         Night
     ----------------------------------------------------------------------------
