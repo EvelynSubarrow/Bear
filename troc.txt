@@ -29,9 +29,9 @@ London Underground stations:
     Embankment            1000m Bakerloo, Circle,     940GZZLUEMB
                                 District, Northern
 
-From Piccadilly Circus, take exit 4. Keep walking straight ahead until you
-arrive. Disregard the old Trocadero signs at Piccadilly Circus, as only Ripley's
-is currently accessible in that direction.
+From Piccadilly Circus station, take exit 4. Keep walking straight ahead until
+you arrive. Disregard the old Trocadero signs at Piccadilly Circus, as only
+Ripley's is currently accessible in that direction.
 
 London Terminals:
     Name           CRS  Operators       Interchange
@@ -49,25 +49,3 @@ London Terminals:
     
     * LS - Leicester Square
     * PC - Piccadilly Circus
-
-Operators:
-    ATOC  Name                      Franchise?
-    ----------------------------------------------------------------------------
-    CH    Chiltern Railways         *
-    CS    Caledonian Sleeper
-    GW    Great Western Railway     *  
-    GX    Gatwick Express
-    EM    East Midland Trains       *
-    ES    EuroStar
-    GN    Great Northern            *
-    GR    Virgin Trains East Coast  *
-    HC    Heathrow Connect
-    HX    Heathrow Express
-    HT    Hull Trains
-    LM    London Midland            *
-    LO    London Overground         *
-    SE    SouthEastern              *
-    SW    South Western Railway     *
-    TL    ThamesLink                *
-    VT    Virgin Trains             *
-    XR    TfL Rail                  *

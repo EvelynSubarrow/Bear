@@ -24,7 +24,7 @@ meets = config["meets"]
 
 c = calendar.Calendar(firstweekday=calendar.SUNDAY)
 
-today = date.today()
+today = date(*config["date"]) if "date" in config else date.today()
 year = today.year
 month = today.month
 
@@ -39,6 +39,8 @@ def first_day(year, month, weekday):
 
 def parse_frequency(frequency):
     base = date(year, month, 1)
+    if not frequency or frequency[0]=="#":
+        return date(1000,1,1)
     while frequency:
         first = frequency[0]
         frequency = frequency[1:]
@@ -65,7 +67,7 @@ def human_countdown(date_from, date_to):
 
 for meet in meets:
     if "date" in meet:
-        meet["date"] = date(meet["date"][0], meet["date"][1], meet["date"][2])
+        meet["date"] = date(*meet["date"])
     else:
         meet["date"] = parse_frequency(meet["frequency"])
 
@@ -105,4 +107,4 @@ for meet in meets:
             params[include] = file.read().rstrip()
     with smtplib.SMTP(config["host"]) as smtp:
         print(smtp.sendmail(config["from"], [config["to"]], message % params))
-
+    print(message % params)
