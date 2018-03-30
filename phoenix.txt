@@ -1,0 +1,35 @@
+Full address: The Phoenix, 37 Cavendish Square, Marylebone, London W1G 0PP
+lat/long:     51.515667, -0.1460623
+
+Bus stops:
+    Name                  Dist. Stop  NAPTAN        Routes         Night
+    ---------------------------------------------------------------------------
+    John Princes St.*           JC    490000173JC   137            N137
+    Margaret St.*               RE    ???           12, 189        N3
+    Margaret St.                RF    490000173RF   12, 88, 453,C2 N3, N18, N109
+                                                                   N136
+    Oxford Circus               AP *  490000173AP   55             N55, N109, N136
+    Oxford Circus               RG    490000173RG   6, 13, 23, 94, N13, N18, N109
+                                                    139, 159, C2   N113, N136
+    Harewood Place*             OQ    490000173OQ   6, 7, 23, 98,  N7, N98
+                                                    159
+    Oxford Circus               OH    490000173Z    137, 189       N137
+                                                                   N41, N55
+
+    * "Oxford circus station" omitted from stop name for length
+    * Last stop on route (in stop column)
+
+London Underground stations:
+    Name                  Dist. Underground lines     NAPTAN        NR CRS code
+    ---------------------------------------------------------------------------
+    Oxford Circus         260m  Central, Bakerloo,    940GZZLUOXC   -
+                                Victoria
+    Bond Street           500m  Central               940GZZLUBND   -
+    Piccadilly Circus     1200m Piccadilly, Bakerloo  940GZZLUPCC   -
+
+National rail stations:
+    Name                  Dist. CRS  Operators  Interchange
+    ---------------------------------------------------------------------------
+    Charing Cross         2000m CHX  SE         Charing Cross udg. (Northern,
+                                                                    Bakerloo)
+    Marylebone            2000m MYB  CH         Marylebone udg.    (Bakerloo)

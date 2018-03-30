@@ -1,22 +1,3 @@
-From: Bear <%(from)s>
-To: 2600 London <%(to)s>
-Subject: Reminder - %(type)s meet, %(meet_weekday)s %(meet_date)s at %(meet_time)s, %(location)s
-
-%(type_desc)s
-
-This meet is %(meet_countdown)s, on %(meet_date)s, at %(meet_time)s.
-
-TfL disruptions (Underground, Overground, TfL Rail, Tram):
-%(disruptions)s
-
-%(loc_desc)s
-
-For more information, please reread.
-
-I'm a bot. If you have questions, reply in the mailing list, or mail Molniya
-(niya@wolf.not.dog). You can also find her on 2600 London's IRC server,
-with the nick 'Molniya'.
-
                                           ..ssS$$$$$$$$Sss.._,$$,
                        .,ssS$$$Sss|.___..$                    ~\$
                     ,sS$$$$$$$$$$$|$$$$$$$                      `\
@@ -37,4 +18,3 @@ with the nick 'Molniya'.
  S$$$$$$$$$$$$$$        ,$$$$$$$$$$$$$'
 (/-(/-(/-(/-(/'      _s$$$$$$$$$$$$$$
                     (/-(/-(/-(/-(/-'
-

@@ -1,0 +1,23 @@
+Full address: Fitzroy Tavern, 16 Charlotte Street, W1T 2LY
+lat/long:     51.5186572,-0.1369183
+
+Bus stops:
+    Name                  Dist. Stop  TfL ID        Routes         Night
+    ---------------------------------------------------------------------------
+    If I don't fill this out before the reminder goes out, I'm sorry etc
+
+London Underground stations:
+    Name                  Dist. Underground lines     NAPTAN        NR CRS code
+    ---------------------------------------------------------------------------
+    Goodge Street         350m  Northern              940GZZLUGDG   -
+    Tottenham Court Road  500m  Central, Northern     940GZZLUTCR   -
+    Oxford Circus         800m  Central, Bakerloo,    940GZZLUOXC   -
+                                Victoria
+
+National rail stations:
+    Name                  Dist. CRS  Operators      Interchange
+    ---------------------------------------------------------------------------
+    London Euston         1400m EUS  LM, LO, VT     
+    Charing Cross         1600m CHX  SE
+    St. Pancras Intl.     2200m STP  EM, ES, SE, TL
+    King's Cross          2200m KGX  GC, GN, HT, VT

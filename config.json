@@ -1,19 +1,16 @@
 {
     "notify" : [1, 7],
-    "from":    "niya@wolf.not.dog",
-    "to":      "london2600@lists.kentgeek.org",
-    "host":    "smtp.kentgeek.org",
     "meets":
     [
         {
-            "frequency": "/Fri+15",
+            "frequency": "#/Fri+15",
             "times":    ["1400"],
             "type":     "Mid-month",
-            "location": "Phoenix",
+            "location": "The Angel",
             "include":
             {
                 "type_desc": "mid.txt",
-                "loc_desc": "phoenix.txt"
+                "loc_desc": "angel.txt"
             }
         },
         {
